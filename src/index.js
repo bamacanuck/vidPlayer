@@ -1,12 +1,15 @@
+// import React, etc.
 
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-// import react from 
+// create a new component - to produce some HTML
 
-// create a new component - which produces some HTML
-
-const App = function() {
-    return <div>hello hello, good people</div>
+const App = () => {
+    return <div>hello, world (!)</div>
 }
 
 // take component-generated HTML, and display it
 // on the page(in the DOM)
+
+ReactDOM.render(<App />, document.querySelector('.container'));
