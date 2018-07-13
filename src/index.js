@@ -10,12 +10,13 @@ const API_KEY = myKeys.YT_API_KEY;
 // create a new component - to produce some HTML
 
 const App = () => {
-    return (
-        <div>
-            <SearchBar />
-        </div>
-    );
+  return (
+    <div>
+        <SearchBar />
+    </div>
+  );
 }
+
 
 // take component-generated HTML, and display it
 // on the page(in the DOM)

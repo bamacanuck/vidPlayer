@@ -1,11 +1,13 @@
 // import React, etc.
 
-import React from 'react';
+import React, { Component } from 'react';
 // import ReactDOM from 'react-dom';
 // import myKeys from './myKeys';
 
-class SearchBar extends React.Component {
-    
-};
+class SearchBar extends Component {
+	render() {
+		return <input />;
+	}
+}
 
 export default SearchBar;
