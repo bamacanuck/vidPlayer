@@ -13,7 +13,12 @@ constructor(props) {
 }
 
 	render() {
-		return <input onChange={event => this.setState({ term: event.target.value })} />;
+		return (
+			<div>
+				<input onChange={event => this.setState({ term: event.target.value })} />
+				{/* _ _ _ value of input: {this.state.term} */}
+			</div>
+		);
 	}
 
 	// render() {
