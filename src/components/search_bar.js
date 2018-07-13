@@ -9,8 +9,8 @@ class SearchBar extends Component {
 		return <input onChange={this.onInputChange} />;
 	}
 
-	onInputChange() {
-
+	onInputChange(event) {
+		console.log(event.target.value);
 	}
 }
 
