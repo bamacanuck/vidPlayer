@@ -4,8 +4,8 @@ import React from 'react';
 // import ReactDOM from 'react-dom';
 // import myKeys from './myKeys';
 
-const SearchBar = () => {
-    return <input />;
+class SearchBar extends React.Component {
+    
 };
 
 export default SearchBar;
