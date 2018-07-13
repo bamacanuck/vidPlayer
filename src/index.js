@@ -2,8 +2,9 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import keys from myKeys;
 
-
+const API_KEY = keys.YT_API_KEY;
 
 // create a new component - to produce some HTML
 
