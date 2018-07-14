@@ -7,8 +7,6 @@ npm-debug.log
 *.iml
 /.idea
 
-myKeysx.js
-
-HIDEME.txt
+ourKeys.js
 
 HIDDEN.txt
