@@ -8,6 +8,10 @@ import YTSearch from 'youtube-api-search';
 
 const API_KEY = myKeys.YT_API_KEY;
 
+YTSearch({key: API_KEY, term: "Shania"}, function (data) {
+  console.log(data);
+});
+
 // create a new component - to produce some HTML
 
 const App = () => {
