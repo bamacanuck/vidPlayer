@@ -7,8 +7,8 @@ npm-debug.log
 *.iml
 /.idea
 
-./src/myKeys.js
+myKeys.js
 
-./src/HIDEME.txt
+HIDEME.txt
 
 HIDDEN.txt
