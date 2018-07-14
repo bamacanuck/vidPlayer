@@ -16,7 +16,7 @@ constructor(props) {
 		return (
 			<div>
 				<input onChange={event => this.setState({ term: event.target.value })} />
-				{/* _ _ _ value of input: {this.state.term} */}
+				_ _ _ value of input: {this.state.term}
 			</div>
 		);
 	}
