@@ -4,6 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import myKeys from './myKeys';
 import SearchBar from './components/search_bar';
+import YTSearch from 'youtube-api-search';
 
 const API_KEY = myKeys.YT_API_KEY;
 
