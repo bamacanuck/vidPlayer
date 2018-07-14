@@ -8,7 +8,7 @@ import YTSearch from 'youtube-api-search';
 
 const API_KEY = myKeys.YT_API_KEY;
 
-YTSearch({key: API_KEY, term: "Shania"}, function (data) {
+YTSearch({key: API_KEY, term: "surfboards"}, function (data) {
   console.log(data);
 });
 
