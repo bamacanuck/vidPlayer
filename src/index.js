@@ -13,6 +13,13 @@ YTSearch({key: API_KEY, term: "Shania"}, function (data) {
 
 
 class App extends Component {
+  constructor (props) {
+    super(props);
+
+    this.state = { videos: [] };
+  }
+
+
   render () {
     return (
       <div>
