@@ -9,7 +9,7 @@ class SearchBar extends Component {
 constructor(props) {
 	super(props);
 
-	this.state = { term: ' enter video search terms here' };
+	this.state = { term: ' (video search terms) ' };
 }
 
 	render() {

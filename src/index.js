@@ -1,25 +1,25 @@
 // import React, etc.
 
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import ourKeys from './ourKeys';
 import SearchBar from './components/search_bar';
 import YTSearch from 'youtube-api-search';
-
 const API_KEY = ourKeys.YT_API_KEY;
 
 YTSearch({key: API_KEY, term: "Shania"}, function (data) {
   console.log(data);
 });
 
-// create a new component - to produce some HTML
 
-const App = () => {
-  return (
-    <div>
-        <SearchBar />
-    </div>
-  );
+class App extends Component {
+  render () {
+    return (
+      <div>
+          <SearchBar />
+      </div>
+    );
+  }
 }
 
 
