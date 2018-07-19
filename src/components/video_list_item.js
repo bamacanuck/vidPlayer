@@ -4,8 +4,12 @@ const VideoListItem = (props) => {
 	const video = props.video;
 
   return (
-    <li>
-			
+    <li className="list-group-item">
+			<div className="video-list media">
+				<div className="media-left">
+					<img className="media-object" />
+				</div>
+			</div>
 		</li>
   );
 };
