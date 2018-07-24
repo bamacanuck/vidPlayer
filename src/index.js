@@ -18,7 +18,10 @@ class App extends Component {
     };
 
     YTSearch({key: API_KEY, term: "That's what the money is for"}, (videos) => {
-      this.setState({ videos });
+      this.setState({
+        videos: videos,
+        selectedVideo: videos[0]
+      });
       // console.log(videos);
     });
 
@@ -29,7 +32,7 @@ class App extends Component {
     return (
       <div>
         <SearchBar />
-        <VideoDetail video={this.state.videos[0]}/>
+        <VideoDetail video={this.state.selectedVideo}/>
         <VideoList videos={this.state.videos} />
       </div>
     );
