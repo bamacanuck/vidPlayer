@@ -33,6 +33,9 @@ class App extends Component {
         <SearchBar />
         <VideoDetail video={this.state.selectedVideo}/>
         <VideoList
+          // pass onVideoSelect, to/through VideoList,
+				  // so VideoListItem clicks can change
+				  // selectedVideo (of this component's state)
           onVideoSelect= {selectedVideo => this.setState({selectedVideo}) }
           videos={this.state.videos}
           // exampleProp={5}
