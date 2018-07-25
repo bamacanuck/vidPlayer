@@ -17,7 +17,9 @@ class App extends Component {
         videos: [],
         selectedVideo: null
     };
+  }
 
+  videoSearch (term) {
     YTSearch({key: API_KEY, term: "That's what the money is for"}, (videos) => {
       this.setState({
         videos: videos,
@@ -26,7 +28,6 @@ class App extends Component {
       // console.log(this.state.selectedVideo);
     });
   }
-
 
   render () {
     return (
