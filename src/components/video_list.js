@@ -9,6 +9,9 @@ const VideoList = (props) => {
   const videoItems = props.videos.map((video) => {
 		return (
 			<VideoListItem
+				// pass down onVideoSelect, from parent
+				// component App, so the list item can
+				// newly set selectedVideo (of App state)
 				onVideoSelect={props.onVideoSelect}
 				key={video.etag}
 				video={video} />
