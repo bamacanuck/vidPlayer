@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import ourKeys from './ourKeys';
@@ -33,7 +34,7 @@ class App extends Component {
 
   render () {
     
-    const videoSearch = _.debounce((term) => { this.videoSearch(term) }, 500)
+    const videoSearch = _.debounce((term) => { this.videoSearch(term) }, 4000)
 
     return (
       <div>
