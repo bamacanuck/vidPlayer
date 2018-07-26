@@ -6,7 +6,7 @@ const VideoListItem = ({video, onVideoSelect}) => {
 	const imageUrl = video.snippet.thumbnails.default.url;
 
   return (
-		// use passed-down function to make the video
+		// use passed-down method to make the video
 		// of this particular list item, when it's clicked,
 		// the new selectedVideo (of App state)
     <li onClick={() => onVideoSelect(video)}
