@@ -46,17 +46,14 @@ class App extends Component {
 				  // selectedVideo (of this component's state)
           onVideoSelect= {selectedVideo => this.setState({selectedVideo}) }
           videos={this.state.videos}
-          // exampleProp={5}
-          // anotherProp={"fgx"}
-          // oneMoreProp={"heya howya hiya"}
+          // testProp={5}
           />
       </div>
     );
   }
 }
 
-
-// take component-generated HTML, and display it
+// display component-generated HTML
 // on the page(in the DOM)
 
 ReactDOM.render(<App />, document.querySelector('.container'));
