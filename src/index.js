@@ -38,6 +38,7 @@ class App extends Component {
 
     return (
       <div>
+        <h1 class="text-center">SEARCHIN' VIDEOS</h1>
         <SearchBar onSearchTermChange={videoSearchThrottled} />
         <VideoDetail video={this.state.selectedVideo}/>
         <VideoList
