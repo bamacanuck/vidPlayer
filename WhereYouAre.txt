@@ -1,3 +1,5 @@
 * just updated lodash and url-parser,
 after being warned of old-version security
 vulnerabilities with these packages
+
+** need to center top-of-page h1 title
